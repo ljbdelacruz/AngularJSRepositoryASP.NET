@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div>
+    <script src="~/Assets/angularjs/Pages/Materialize/routes/main/module.js"></script>
+	<script src="~/Assets/angularjs/Pages/Materialize/routes/main/MainCtrl.page.js"></script>
+    <script src="~/Assets/angularjs/Pages/Materialize/routes/modals/module.js"></script>
+    <script src="~/Assets/angularjs/Pages/Materialize/routes/modals/ModalCtrl.page.js"></script>
+
+	<!--Main Controller-->
+	<script src="~/Assets/angularjs/Pages/Materialize/app.js"></script>
+	<script src="~/Assets/angularjs/Pages/Materialize/appCtrl.js"></script>
+	
+    <main ng-controller="MainAppCtrl">
+        <h2>Welcome to ASP.NET MVC @ViewData["Version"] on @ViewData["Runtime"]!</h2>
+        <div ng-view></div>
+    </main>
+
+	
+</div>

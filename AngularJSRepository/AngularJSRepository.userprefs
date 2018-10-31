@@ -1,14 +1,5 @@
 ﻿<Properties StartupConfiguration="{2BDB4386-DC42-42D3-A554-AB236C18811E}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="AngularJSRepository/Assets/angularjs/Pages/Materialize/routes/main/Main.page.html">
-    <Files>
-      <File FileName="AngularJSRepository/Views/Home/Index.cshtml" Line="19" Column="12" />
-      <File FileName="AngularJSRepository/Assets/angularjs/Pages/Materialize/routes/modals/ModalCtrl.page.js" Line="20" Column="32" />
-      <File FileName="AngularJSRepository/Assets/angularjs/Pages/Materialize/routes/modals/modal.page.html" Line="10" Column="15" />
-      <File FileName="AngularJSRepository/Assets/angularjs/Components/Modal/Modal1/Modal1.html" Line="20" Column="7" />
-      <File FileName="AngularJSRepository/Assets/angularjs/Components/Modal/Modal1/style.css" Line="26" Column="20" />
-      <File FileName="AngularJSRepository/Assets/angularjs/Pages/Materialize/routes/main/Main.page.html" Line="12" Column="11" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

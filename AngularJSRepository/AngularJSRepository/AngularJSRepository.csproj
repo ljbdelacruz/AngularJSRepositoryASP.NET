@@ -75,6 +75,7 @@
     <Folder Include="Assets\angularjs\res\" />
     <Folder Include="Assets\angularjs\Pages\Materialize\routes\modals\" />
     <Folder Include="Assets\angularjs\Components\Modal\Modal1\" />
+    <Folder Include="Context\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\HomeController.cs" />

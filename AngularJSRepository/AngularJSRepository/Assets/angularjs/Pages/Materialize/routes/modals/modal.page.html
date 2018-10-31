@@ -2,16 +2,25 @@
     <h1>Modal Bootstrap For AngularJS</h1>
     <div>
         <div class="row">
-            <div class="col-lg-3" >
+            <div class="col-lg-1" >
                 <button1 label="'Modal1'" event="buttonController.ButtonPressed(1)" style="cursor:pointer"></button1>
                 <modal1 title="'Modal 1'" show="modalController.show1" buttons="modalController.buttons">
-                    <h6>Hello Wolrd Modal 1</h6>
+                    <div>
+                        <h6>Hello Wolrd Modal 1</h6>
+                        <input type="button" value="Search" />
+                    </div>
                 </modal1>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-1">
                 <button1 label="'Modal2'" event="buttonController.ButtonPressed(2)" style="cursor:pointer"></button1>
-                <modal1 title="'Modal 2'" show="modalController.show2">
-                    <h6>Hello Wolrd Modal 2</h6>
+                <modal1 title="'Modal 2'" show="modalController.show2" buttons="modalController.buttons1">
+                    <div>
+                        <h6>Hello Wolrd Modal 2</h6>
+                        <input type="button" value="Search" />
+                        <input type="button" value="Search" />
+                        <input type="button" value="Search" />
+                    </div>
+
                 </modal1>
             </div>
         </div>

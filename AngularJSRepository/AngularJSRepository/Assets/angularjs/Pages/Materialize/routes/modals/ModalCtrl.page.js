@@ -13,6 +13,10 @@
                     {label:'Confirm', invoke:function(){ $scope.modalController.show1(); alert("Confirm"); }}, 
                     {label:'Cancel', invoke:function(){ $scope.modalController.show1(); }}, 
                  ]
+                 $scope.modalController.buttons1=[
+                    {label:'Close', invoke:function(){ $scope.modalController.show2();}}
+                 ];
+
                  //button controller
                  $scope.buttonController={};
                  $scope.buttonController.ButtonPressed=function(option){          
